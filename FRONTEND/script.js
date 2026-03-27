@@ -18,10 +18,18 @@ let state = {
 let latestAnalysis = null;
 let editingExpenseId = null;
 let activeApiBaseUrl = "";
+const appConfig = window.EXPENSE_AI_CONFIG || {};
 
 function getDefaultApiBaseUrl() {
   const userAgent = navigator.userAgent || "";
   const host = window.location.hostname;
+  const configuredApiBaseUrl = typeof appConfig.apiBaseUrl === "string"
+    ? appConfig.apiBaseUrl.trim()
+    : "";
+
+  if (configuredApiBaseUrl) {
+    return configuredApiBaseUrl.replace(/\/$/, "");
+  }
 
   if (userAgent.includes("Android")) {
     return "http://10.0.2.2:3000";
