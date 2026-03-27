@@ -1,0 +1,91 @@
+{
+  "expenses": [
+    {
+      "id": 1774548959136,
+      "amount": 200,
+      "description": "lunch",
+      "category": "food",
+      "mood": "planned",
+      "notes": "",
+      "date": "2026-03-26",
+      "createdAt": "2026-03-26T18:15:58.891Z"
+    },
+    {
+      "id": 1774548977940,
+      "amount": 500,
+      "description": "petrol",
+      "category": "others",
+      "mood": "planned",
+      "notes": "",
+      "date": "2026-03-26",
+      "createdAt": "2026-03-26T18:16:17.325Z"
+    },
+    {
+      "id": 1774548998107,
+      "amount": 100,
+      "description": "snacks",
+      "category": "food",
+      "mood": "happy",
+      "notes": "",
+      "date": "2026-03-26",
+      "createdAt": "2026-03-26T18:16:37.974Z"
+    },
+    {
+      "id": 1774549069682,
+      "amount": 5000,
+      "description": "rent",
+      "category": "others",
+      "mood": "planned",
+      "notes": "",
+      "date": "2026-03-26",
+      "createdAt": "2026-03-26T18:17:49.086Z"
+    },
+    {
+      "id": 1774549086737,
+      "amount": 1500,
+      "description": "costume",
+      "category": "shopping",
+      "mood": "happy",
+      "notes": "",
+      "date": "2026-03-26",
+      "createdAt": "2026-03-26T18:18:06.366Z"
+    },
+    {
+      "id": 1774555471681,
+      "amount": 100,
+      "description": "spares",
+      "category": "others",
+      "mood": "happy",
+      "notes": "",
+      "date": "2026-03-26",
+      "createdAt": "2026-03-26T20:04:31.593Z"
+    }
+  ],
+  "budgets": {
+    "food": 2500,
+    "travel": 1500,
+    "shopping": 2000,
+    "entertainment": 1200,
+    "utilities": 1800,
+    "others": 1000
+  },
+  "goal": {
+    "name": "Emergency Fund",
+    "target": 15000,
+    "saved": 2000
+  },
+  "profile": {
+    "mode": "smart",
+    "userType": "general"
+  },
+  "reminders": [
+    {
+      "id": 1,
+      "title": "Electricity Bill",
+      "amount": 900,
+      "dueDate": "2026-03-31",
+      "category": "utilities",
+      "notes": "Monthly bill reminder"
+    }
+  ]
+}

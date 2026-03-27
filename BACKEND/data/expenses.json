@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1774547634567,
+    "amount": 100,
+    "description": "snacks",
+    "category": "food",
+    "createdAt": "2026-03-26T17:53:53.829Z"
+  },
+  {
+    "id": 1774547645287,
+    "amount": 500,
+    "description": "petrol",
+    "category": "others",
+    "createdAt": "2026-03-26T17:54:05.232Z"
+  },
+  {
+    "id": 1774547671899,
+    "amount": 200,
+    "description": "movie",
+    "category": "entertainment",
+    "createdAt": "2026-03-26T17:54:31.759Z"
+  },
+  {
+    "id": 1774547683422,
+    "amount": 1500,
+    "description": "dress",
+    "category": "shopping",
+    "createdAt": "2026-03-26T17:54:42.624Z"
+  }
+]

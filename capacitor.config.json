@@ -1,0 +1,9 @@
+{
+  "appId": "com.expenseai.app",
+  "appName": "Expense AI",
+  "webDir": "FRONTEND",
+  "server": {
+    "cleartext": true,
+    "androidScheme": "http"
+  }
+}
